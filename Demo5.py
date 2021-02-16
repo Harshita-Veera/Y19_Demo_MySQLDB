@@ -17,6 +17,6 @@ try:
 except:
     conn.rollback()
 print(cur.rowcount, "Records Deleted")
-
+#cursor close
 cur.close()
 conn.close()
